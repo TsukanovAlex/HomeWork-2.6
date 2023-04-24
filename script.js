@@ -35,7 +35,7 @@ console.log(arr);
 
 // Задание № 5
 
-let arr = [1, 1, 1];
+const arr = [1, 1, 1];
 arr.push(2, 2, 2);
 console.log(arr);
 
@@ -67,7 +67,6 @@ console.log(letters.split('').reverse().join(''));
 // Задание №10
 
 const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-
 for (let i = 0; i < arr.length - 1; i++) {
     console.log(arr[i] + arr[i + 1]);
 };
