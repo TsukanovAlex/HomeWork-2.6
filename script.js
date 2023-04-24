@@ -1,4 +1,4 @@
-// Задание №1
+// // Задание №1
 const number = [1, 5, 4, 10, 0, 3];
 for (let i = 0; i < number.length; i++) {
     if (number[i] === 10) { 
@@ -8,3 +8,8 @@ for (let i = 0; i < number.length; i++) {
     }
     console.log(number[i]);
     }
+
+ // Задание № 2
+
+ const number = [1, 5, 4, 10, 0, 3];
+ console.log(number.indexOf(4));
