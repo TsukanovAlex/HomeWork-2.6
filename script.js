@@ -15,5 +15,18 @@ for (let i = 0; i < number.length; i++) {
  console.log(number.indexOf(4));
 
 // Задание № 3
+
 const number = [1, 3, 5, 10, 20];
 console.log(number.join(' '));
+
+// Задание № 4 
+
+let arr = [];
+    for (let i = 0; i < 3; i++) {
+        let nestedArr = [];
+        for (let j = 0; j < 3; j++) {
+            nestedArr.push(1);
+        }
+        arr.push(nestedArr);
+    }
+    console.log(arr);
