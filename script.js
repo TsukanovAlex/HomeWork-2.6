@@ -1,4 +1,4 @@
-// // Задание №1
+// Задание №1
 const number = [1, 5, 4, 10, 0, 3];
 for (let i = 0; i < number.length; i++) {
     if (number[i] === 10) { 
@@ -13,3 +13,7 @@ for (let i = 0; i < number.length; i++) {
 
  const number = [1, 5, 4, 10, 0, 3];
  console.log(number.indexOf(4));
+
+// Задание № 3
+const number = [1, 3, 5, 10, 20];
+console.log(number.join(' '));
