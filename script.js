@@ -117,3 +117,18 @@ for (let i = 0; i < number.length; i++) {
     }
 }
 console.log(negativeNumber);
+
+// Задание 14
+
+const randomNumbers = [];
+const evenNumbers = [];
+
+for (let i = 0; i < 10; i++) {
+    const number = Math.floor(Math.random() * 11);
+    randomNumbers.push(number);
+    if (number % 2 === 0) {
+        evenNumbers.push(number);
+    }
+}
+console.log(randomNumbers);
+console.log(evenNumbers);
