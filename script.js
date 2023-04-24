@@ -105,3 +105,15 @@ const arr = getLengthWords.map(function(words) {
     return words.length
 })
 console.log(arr);
+
+
+// Задание № 13
+
+const number = [1, 2, 3, -4, 5, 6, -3];
+const negativeNumber = [];
+for (let i = 0; i < number.length; i++) {
+    if (number[i] < 0) {
+        negativeNumber.push(number[i]);
+    }
+}
+console.log(negativeNumber);
