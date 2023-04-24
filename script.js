@@ -132,3 +132,15 @@ for (let i = 0; i < 10; i++) {
 }
 console.log(randomNumbers);
 console.log(evenNumbers);
+
+ // Задание № 15
+
+ let arr = [];
+ let sum = 0;
+
+ for (let i = 0; i < 6; i++) {
+     const number = Math.floor(Math.random() * 10) + 1;
+     arr.push(number);
+     sum += number;
+ }
+ console.log(sum / arr.length);
