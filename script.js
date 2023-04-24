@@ -84,3 +84,24 @@ for (let i = 0; i < arr.length; i++) {
     return arr1;
 }
 console.log(squaring([5, 15, 25]));
+
+Задание № 12 (Способ 1)
+
+function getLengthWords(words) {
+const arr = [];
+for (let i = 0; i < words.length; i++) {
+    const wordLength = words[i].length;
+    arr.push(wordLength)
+    } return arr;
+}
+let words = (['слово', '', 'слог', 'длинное предложение', 'буква']);
+let wordLength = getLengthWords(words);
+console.log(wordLength);
+
+// Задание № 12 (Способ 2)
+
+const getLengthWords = ['объект', 'массив', 'тег', 'функция'];
+const arr = getLengthWords.map(function(words) {
+    return words.length
+})
+console.log(arr);
