@@ -52,3 +52,8 @@ console.log(arr);
 const arr = [9, 8, 7, 6, 5];
 let userNumb = +prompt('Введите число от 1 до 10');
 alert ((arr.includes(userNumb)) ? 'Данное число входит в массив' : (isNaN(userNumb)) ? 'Введенное значение не является числом' : 'Данное число в массив не входит');
+
+// Задание № 8
+
+let letters = ('abcdef');
+console.log(letters.split('').reverse().join(''));
