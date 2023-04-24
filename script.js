@@ -30,3 +30,9 @@ let arr = [];
         arr.push(nestedArr);
     }
     console.log(arr);
+
+// Задание № 5
+
+let arr = [1, 1, 1];
+arr.push(2, 2, 2);
+console.log(arr);
