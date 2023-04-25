@@ -106,15 +106,11 @@ const arr = getLengthWords.map(function(words) {
 console.log(arr);
 
 
-// Задание № 13
+Задание № 13
 
-const number = [1, 2, 3, -4, 5, 6, -3];
-const negativeNumber = [];
-for (let i = 0; i < number.length; i++) {
-    if (number[i] < 0) {
-        negativeNumber.push(number[i]);
-    }
-}
+const number = [1, 2, 3, -4, 5, 6, -3, -9];
+let negativeNumber = number.filter(item => item < 0);
+
 console.log(negativeNumber);
 
 // Задание 14
